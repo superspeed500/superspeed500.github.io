@@ -1,7 +1,7 @@
 // Thanks to https://stackoverflow.com/questions/22292252/css-background-image-slideshow
 // Each background image MUST have a defined class in main.css that points to the location of the image on the server
 
-let backgrounds = new Array('a_ets2_scania','b_trs31')
+let backgrounds = new Array('a_ets2_scania','b_trs31','c_mtel11')
 let nextImage = 0
 
 // Function for running the slide show, never terminates

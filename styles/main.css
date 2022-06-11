@@ -26,6 +26,10 @@ body:before {
   body.b_trs31:before {
     background: url(../img/bg_trs.jpg) no-repeat center center;
   }
+
+  body.c_mtel11:before {
+    background: url(../img/bg_modeltrain.jpg) no-repeat center center;
+  }
   
   .fg-text {
     color: whitesmoke;
