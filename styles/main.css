@@ -12,23 +12,23 @@ body:before {
     width: 100%;
     height: 100%;
     z-index: -10;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: black;
   }
 
   body.a_ets2_scania::before {
-    background: url(../img/bg_scania.jpg) no-repeat center center;
+    background-image: url(../img/bg_scania.jpg);
   }
 
   body.b_trs31:before {
-    background: url(../img/bg_trs.jpg) no-repeat center center;
+    background-image: url(../img/bg_trs.jpg);
   }
 
   body.c_mtel11:before {
-    background: url(../img/bg_modeltrain.jpg) no-repeat center center;
+    background-image: url(../img/bg_modeltrain.jpg);
   }
   
   .fg-text {
